@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skynet Tour and Travels - Kashmir Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-mountain"></i>
+            Skynet Tour & Travels
+        </div>
+        <div class="nav-links">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#packages"><i class="fas fa-map-marked-alt"></i> Packages</a>
+            <a href="#hotels"><i class="fas fa-hotel"></i> Hotels</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#testimonials"><i class="fas fa-star"></i> Reviews</a>
+            <a href="#contact"><i class="fas fa-phone"></i> Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="slideshow-container">
+            <!-- Placeholder for slideshow images -->
+            <div class="slide fade">
+                <img src="kashmir3.png" alt="Kashmir Tourism">
+                <div class="text">Welcome to Paradise on Earth</div>
+            </div>
+            <div class="slide fade">
+                <img src="kashmir1.jpg"alt="Kashmir Tourism">
+                <div class="text">Discover the Beauty of Kashmir</div>
+            </div>
+            <div class="slide fade">
+                <img src="kashmir1.jpg" alt="Kashmir Tourism">
+                <div class="text">Experience the Magic</div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Our Tour Packages</h2>
+        <div class="packages-grid">
+            <!-- Gallery grid will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="hotels">
+        <h2>Hotel Bookings</h2>
+        <div class="hotels-grid">
+            <!-- Hotel cards will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Welcome to Skynet Tour & Travels, your premier travel partner in Kashmir. We specialize in creating unforgettable experiences in the paradise on earth.</p>
+                <p>With years of experience and deep local knowledge, we ensure that every journey with us becomes a cherished memory.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-container">
+            <!-- Rating cards will be added here via JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-details">
+                <p>
+                    <a href="tel:+919797865597" class="phone-link" onclick="window.open('tel:+919797865597')">
+                        <i class="fas fa-phone"></i> +91 9797865597
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+917006294964" class="phone-link" onclick="window.open('tel:+917006294964')">
+                        <i class="fas fa-phone"></i> +91 7006294964
+                    </a>
+                </p>
+                <p>
+                    <a href="https://maps.google.com/?q=Skynet+Computer+Institute+Brein+Srinagar+Kashmir" target="_blank" class="map-link">
+                        <i class="fas fa-map-marker-alt"></i> Skynet Services, Brein
+                        <br>
+                        <span class="address-subtext">Srinagar, Kashmir - 191121</span>
+                        <br>
+                        <span class="view-map">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </span>
+                    </a>
+                </p>
+                <p><a href="https://www.instagram.com/skynet_tours" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i> skynet_tours
+                </a></p>
+            </div>
+            <div class="contact-buttons">
+                <button class="whatsapp-btn" onclick="contactWhatsApp()">Get Details on WhatsApp</button>
+                <button class="instagram-btn" onclick="window.open('https://www.instagram.com/skynet_tours', '_blank')">
+                    <i class="fab fa-instagram"></i> Follow Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Skynet Tour & Travels. All rights reserved.</p>
+            <p>Website Created by Muneeb fayaz |+91 9103799445</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
